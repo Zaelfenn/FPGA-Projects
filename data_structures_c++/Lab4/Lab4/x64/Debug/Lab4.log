@@ -1,0 +1,15 @@
+﻿  Assignment3_4_test.cpp
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(2,1):
+  '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(72,7): warning C4101: 'tests_passed': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(101,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(121,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(141,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(161,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(567,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(587,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(607,20): warning C4101: 'exception': unreferenced local variable
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\Lab4\Assignment3_4_test.cpp(627,20): warning C4101: 'exception': unreferenced local variable
+  Lab4.vcxproj -> C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab4\x64\Debug\Lab4.exe

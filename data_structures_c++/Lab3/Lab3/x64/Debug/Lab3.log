@@ -1,0 +1,491 @@
+﻿  Assignment3_4_test.cpp
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(70,2): error C3861: '_CrtsetDbgFlag': identifier not found
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556: 'T &Row<T>::operator [](int) noexcept': overloaded function differs only by return type from 'const T &Row<T>::operator [](int)'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:         ]
+  (compiling source file 'Assignment3_4_test.cpp')
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(14,11):
+  see declaration of 'Row<T>::operator []'
+          with
+          [
+              T=int
+          ]
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,13):
+  	see reference to class template instantiation 'Row<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373: 'Row<T>::operator []': redefinition; different type modifiers
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:         ]
+  (compiling source file 'Assignment3_4_test.cpp')
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(14,11):
+  see declaration of 'Row<T>::operator []'
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(98,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(118,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(138,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(158,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(176,15): error C2512: 'Array2D<int>': no appropriate default constructor available
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\myArray2D.h(12,7):
+  see declaration of 'Array2D<int>'
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(260,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(269,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(298,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(309,27): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(338,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(341,15): error C2512: 'Array2D<int>': no appropriate default constructor available
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\myArray2D.h(12,7):
+  see declaration of 'Array2D<int>'
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(351,27): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(381,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(392,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(404,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(434,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(445,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(475,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(486,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(498,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(528,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2264:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2088:             T=int
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(539,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556: 'T &Row<T>::operator [](int) noexcept': overloaded function differs only by return type from 'const T &Row<T>::operator [](int)'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1): error C2556:         ]
+  (compiling source file 'Assignment3_4_test.cpp')
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(14,11):
+  see declaration of 'Row<T>::operator []'
+          with
+          [
+              T=std::string
+          ]
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,1):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,13):
+  	see reference to class template instantiation 'Row<T>' being compiled
+          with
+          [
+              T=std::string
+          ]
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373: 'Row<T>::operator []': redefinition; different type modifiers
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(15,5): error C2373:         ]
+  (compiling source file 'Assignment3_4_test.cpp')
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Row.h(14,11):
+  see declaration of 'Row<T>::operator []'
+          with
+          [
+              T=std::string
+          ]
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(564,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(584,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(604,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(624,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(642,18): error C2512: 'Array2D<std::string>': no appropriate default constructor available
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\myArray2D.h(12,7):
+  see declaration of 'Array2D<std::string>'
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(721,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(730,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(755,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(766,27): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(791,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(794,18): error C2512: 'Array2D<std::string>': no appropriate default constructor available
+  C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\myArray2D.h(12,7):
+  see declaration of 'Array2D<std::string>'
+  
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(804,27): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(830,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(841,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(853,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(878,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(889,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(915,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(926,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(938,23): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(964,16): error C2088:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2264: 'Row<T>::operator []': error in function definition or declaration; function not called
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2264:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2264:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2264:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2264:         ]
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2088: built-in operator '[' cannot be applied to an operand of type 'Row<T>'
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2088:         with
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2088:         [
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2088:             T=std::string
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Assignment3_4_test.cpp(975,23): error C2088:         ]
+  Exception.cpp
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Exception.cpp(32,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Exception.cpp(57,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\drago\OneDrive\Desktop\sandow_zaelfenn_cst_211\Lab3\Lab3\Exception.cpp(82,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...

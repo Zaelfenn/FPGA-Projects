@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Vertex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|solutionrelative:Dijkstras\\Vertex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|solutionrelative:Dijkstras\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Edge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|solutionrelative:Dijkstras\\Edge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Exception.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|solutionrelative:Dijkstras\\Exception.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\stub.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|solutionrelative:Dijkstras\\stub.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\assign13.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B10BFD1-DF2E-4968-88E7-7BD0F6CA9226}|Dijkstras\\Dijkstras.vcxproj|solutionrelative:Dijkstras\\assign13.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exception.h",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Exception.h",
+              "RelativeDocumentMoniker": "Dijkstras\\Exception.h",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Exception.h",
+              "RelativeToolTip": "Dijkstras\\Exception.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-05T08:24:43.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edge.h",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Edge.h",
+              "RelativeDocumentMoniker": "Dijkstras\\Edge.h",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Edge.h",
+              "RelativeToolTip": "Dijkstras\\Edge.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-03T03:21:34.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graph.h",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Graph.h",
+              "RelativeDocumentMoniker": "Dijkstras\\Graph.h",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Graph.h",
+              "RelativeToolTip": "Dijkstras\\Graph.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T09:43:40.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vertex.h",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Vertex.h",
+              "RelativeDocumentMoniker": "Dijkstras\\Vertex.h",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\Vertex.h",
+              "RelativeToolTip": "Dijkstras\\Vertex.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T09:43:34.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "assign13.txt",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\assign13.txt",
+              "RelativeDocumentMoniker": "Dijkstras\\assign13.txt",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\assign13.txt",
+              "RelativeToolTip": "Dijkstras\\assign13.txt",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-31T20:56:41.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stub.cpp",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\stub.cpp",
+              "RelativeDocumentMoniker": "Dijkstras\\stub.cpp",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab14\\Dijkstras\\stub.cpp",
+              "RelativeToolTip": "Dijkstras\\stub.cpp",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-31T20:34:53.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

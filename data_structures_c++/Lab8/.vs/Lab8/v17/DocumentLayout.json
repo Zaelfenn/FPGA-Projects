@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84853236-FEBD-4646-B9B7-B9068001E974}|LLQueue\\LLQueue.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\Stub.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84853236-FEBD-4646-B9B7-B9068001E974}|LLQueue\\LLQueue.vcxproj|solutionrelative:LLQueue\\Stub.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84853236-FEBD-4646-B9B7-B9068001E974}|LLQueue\\LLQueue.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84853236-FEBD-4646-B9B7-B9068001E974}|LLQueue\\LLQueue.vcxproj|solutionrelative:LLQueue\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84853236-FEBD-4646-B9B7-B9068001E974}|LLQueue\\LLQueue.vcxproj|C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84853236-FEBD-4646-B9B7-B9068001E974}|LLQueue\\LLQueue.vcxproj|solutionrelative:LLQueue\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.h",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\List.h",
+              "RelativeDocumentMoniker": "LLQueue\\List.h",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\List.h",
+              "RelativeToolTip": "LLQueue\\List.h",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAMwBEBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-26T02:36:01.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Queue.h",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\Queue.h",
+              "RelativeDocumentMoniker": "LLQueue\\Queue.h",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\Queue.h",
+              "RelativeToolTip": "LLQueue\\Queue.h",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAMwBcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-26T00:55:47.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stub.cpp",
+              "DocumentMoniker": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\Stub.cpp",
+              "RelativeDocumentMoniker": "LLQueue\\Stub.cpp",
+              "ToolTip": "C:\\Users\\drago\\OneDrive\\Desktop\\sandow_zaelfenn_cst_211\\Lab8\\LLQueue\\Stub.cpp",
+              "RelativeToolTip": "LLQueue\\Stub.cpp",
+              "ViewState": "AQIAAJgBAAAAAAAAAAAAAKwBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-26T00:55:34.285Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
