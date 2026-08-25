@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Lab5.NIOS.debug_reset_bridge -pg 1
+preplace inst Lab5.NIOS.hart -pg 1
+preplace inst Lab5.DEBUG -pg 1 -lvl 3 -y 30
+preplace inst Lab5.clk_0 -pg 1 -lvl 1 -y 120
+preplace inst Lab5.SRAM -pg 1 -lvl 3 -y 130
+preplace inst Lab5.NIOS.dbg_mod -pg 1
+preplace inst Lab5.RGBS -pg 1 -lvl 3 -y 210
+preplace inst Lab5.NIOS.timer_module -pg 1
+preplace inst Lab5.NIOS.reset_bridge -pg 1
+preplace inst Lab5.NIOS.clock_bridge -pg 1
+preplace inst Lab5 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Lab5.NIOS -pg 1 -lvl 2 -y 70
+preplace netloc EXPORT<net_container>Lab5</net_container>(SLAVE)Lab5.rgb,(SLAVE)RGBS.conduit_end) 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc EXPORT<net_container>Lab5</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)Lab5.reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>Lab5</net_container>(SLAVE)DEBUG.irq,(MASTER)NIOS.platform_irq_rx) 1 2 1 650
+preplace netloc INTERCONNECT<net_container>Lab5</net_container>(SLAVE)NIOS.timer_sw_agent,(SLAVE)NIOS.dm_agent,(SLAVE)DEBUG.avalon_jtag_slave,(MASTER)NIOS.data_manager,(SLAVE)SRAM.s1,(MASTER)NIOS.instruction_manager,(SLAVE)RGBS.avalon_slave_0) 1 1 2 300 210 630
+preplace netloc EXPORT<net_container>Lab5</net_container>(SLAVE)clk_0.clk_in,(SLAVE)Lab5.clk) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>Lab5</net_container>(MASTER)NIOS.dbg_reset_out,(SLAVE)NIOS.ndm_reset_in,(SLAVE)RGBS.reset,(MASTER)clk_0.clk_reset,(SLAVE)DEBUG.reset,(SLAVE)SRAM.reset1,(SLAVE)NIOS.reset) 1 1 2 280 280 610
+preplace netloc FAN_OUT<net_container>Lab5</net_container>(SLAVE)NIOS.clk,(MASTER)clk_0.clk,(SLAVE)SRAM.clk1,(SLAVE)RGBS.clock,(SLAVE)DEBUG.clk) 1 1 2 260 230 670
+levelinfo -pg 1 0 50 850
+levelinfo -hier Lab5 60 90 410 700 840

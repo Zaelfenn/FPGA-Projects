@@ -1,0 +1,135 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2023  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 22.1std.2 Build 922 07/20/2023 SC Standard Edition
+# Date created = 15:18:03  January 30, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lab3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY TopLevel
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:18:03  JANUARY 30, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.2 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "DE1-SoC Board"
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name VERILOG_FILE BCDDec.v
+set_global_assignment -name VERILOG_FILE ClkDivider.v
+set_global_assignment -name VERILOG_FILE Counter.v
+set_global_assignment -name VERILOG_FILE SevenSegDecoder.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE Counter_tb.v
+set_global_assignment -name VERILOG_FILE SevenSeg_tb.v
+set_global_assignment -name VERILOG_FILE BCDDec_tb.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity Lab3 -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity Lab3 -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity Lab3 -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity Lab3 -section_id Top
+set_global_assignment -name VERILOG_FILE TopLevel.v
+set_global_assignment -name VERILOG_FILE SevenSegDeMux.v
+set_global_assignment -name VERILOG_FILE SevenSegMux.v
+set_global_assignment -name VERILOG_FILE SevenSegMux_tb.v
+set_global_assignment -name VERILOG_FILE SevenSegDeMux_tb.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity BCDDec -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity BCDDec -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity BCDDec -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity BCDDec -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity ClkDivider -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity ClkDivider -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity ClkDivider -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity ClkDivider -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity SevenSegDecoder -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity SevenSegDecoder -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity SevenSegDecoder -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity SevenSegDecoder -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity SevenSegDeMux -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity SevenSegDeMux -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity SevenSegDeMux -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity SevenSegDeMux -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity SevenSegMux -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity SevenSegMux -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity SevenSegMux -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity SevenSegMux -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity TopLevel -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity TopLevel -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity TopLevel -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity Counter_tb -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity Counter_tb -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity Counter_tb -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity Counter_tb -section_id Top
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to digit_out
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ena
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rst
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to u_d
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_AB12 -to rst
+set_location_assignment PIN_AC12 -to ena
+set_location_assignment PIN_AF9 -to u_d
+set_location_assignment PIN_AC18 -to digit_out[0]
+set_location_assignment PIN_Y17 -to digit_out[1]
+set_location_assignment PIN_AD17 -to digit_out[2]
+set_location_assignment PIN_Y18 -to digit_out[3]
+set_location_assignment PIN_AK16 -to digit_out[4]
+set_location_assignment PIN_AK18 -to digit_out[5]
+set_location_assignment PIN_AK19 -to digit_out[6]
+set_location_assignment PIN_AJ19 -to digit_out[7]
+set_location_assignment PIN_AJ17 -to digit_out[8]
+set_location_assignment PIN_AJ16 -to digit_out[9]
+set_location_assignment PIN_AH18 -to digit_out[10]
+set_location_assignment PIN_AH17 -to digit_out[11]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
