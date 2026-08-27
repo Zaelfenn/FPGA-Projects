@@ -81,7 +81,7 @@ void Exception::setMsg(const char* msg)										//setter for m_msg
 		m_msg = new char[strlen(msg) + 1];						//if the passed in value is not empty, create a new char * with the same length, plus one for null terminated string
 		strcpy(m_msg, msg);										//copy the string over
 	}
-	else if (m_msg == nullptr)
+	else if (m_msg != nullptr)
 	{
 		delete[] m_msg;											//if a null is passed in, make sure that data is non existent
 		m_msg = nullptr;
