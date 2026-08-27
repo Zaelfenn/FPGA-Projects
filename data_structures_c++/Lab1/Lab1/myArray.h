@@ -56,7 +56,12 @@ Array<T>::Array(int length, int start_index) : m_array(nullptr), m_start_index(s
 	else if (length < 0)				//negative length not valid
 	{
 		throw(Exception("Length cannot be negative"));
-	}	
+	}
+	else							//length of zero, or no length at all
+	{
+		m_array = nullptr;
+	}
+		
 }
 
 template <typename T>
@@ -64,6 +69,7 @@ Array<T>::Array(const Array<T>& copy) : m_array(nullptr), m_start_index(copy.m_s
 {
 	if (copy.m_array != nullptr) {
 		delete[] m_array;
+		m_length = copy.m_length;
 		m_array = new T[m_length];
 		for (int i = 0; i < m_length; ++i)
 		{
@@ -87,6 +93,7 @@ Array<T>& Array<T>::operator = (const Array<T>& rhs)			//copy assignment operato
 {
 	if (this != &rhs)
 	{
+	
 		delete[] m_array;
 		m_length = rhs.m_length;
 		m_array = new T[m_length];

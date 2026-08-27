@@ -33,9 +33,12 @@ Exception::Exception(const Exception& copy)	: m_msg(nullptr) 								//copy cons
 	}
 }
 
-Exception::Exception(Exception&& copy) noexcept: m_msg(copy.m_msg)								//move constructor
+Exception::Exception(Exception&& copy) noexcept: m_msg(nullptr)								//move constructor
 {
-	copy.m_msg = nullptr;
+	if (copy.m_msg != nullptr) {
+		m_msg = copy.m_msg;												//change pointer location
+		copy.m_msg = nullptr;											//stop pointing 
+	}
 }
 
 
